@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Alegreya SC', serif;
+    font-family: 'Boogaloo', cursive;
+}
+.logo{
+    color:rgb(37, 144, 151);
+}
+.navbar-custom{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: right; 
+    background:rgba(7,7,7,0.5);
+}
+/*===End Of Navbar===*/
+.hero{
+    padding-top: 15rem;
+    padding-right: 6rem;
+    text-align: center;
+    color: #000;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: relative;
+    background-size: 100% 70vh;
+
+}
+.hero-heading{
+    font-size: 3.25rem;
+    font-weight: bold;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    color:rgb(243, 250, 243);
+}
+/*---End of hero---*/
+.page-section h2.section-heading{
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.page-section h3.section-subheading{
+    font-size: 2rem;
+    font-weight: bold;
+    font-style:italic;
+    margin-bottom: 4rem;
+}
+.col-md-4{
+    height:100px;
+    text-align:center;
+    border-bottom: 10px;
+    border-top: 10px;
+
+}
+/*--End Of Page section--*/
+/*--About Section--*/
+.about{
+    padding-top: 20px 0 0 0;
+    padding-bottom: 10px;
+}
+.about h3{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+    font-style:oblique;
+
+}
+/*===Contact*/
+.contact .info{
+    padding: 20px 40px;
+    background: #f7e759;
+    color: #000;
+    text-align: center;
+    border: 1px solid #fff; 
+}
+.contact .info{
+    font-size: 30px;
+    color: #a31818;
+    margin-bottom: 15px;
+}
+.contact .info h4{
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact .info p{
+    font-size: 15px;
+}
+/*===Footer===*/
+.social{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    list-style-type:none;
+}
+.social .list-item{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff;
+
+}
